@@ -3,6 +3,8 @@ from tkinter import messagebox
 import math
 import random
 
+#Aqui o algoritmo A* está implementado, mas o X joga sempre primeiro mas como IA e não Humano
+
 class Connect4:
     def __init__(self):
         self.board = [[' ' for _ in range(7)] for _ in range(6)]  # Tabuleiro 6x7 vazio
